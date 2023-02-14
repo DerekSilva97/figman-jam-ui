@@ -8,7 +8,7 @@ export function Square({ selected }: NodeProps) {
         <div className="bg-violet-500 w-full h-full rounded min-w-[200px] min-h-[200px] overflow-hidden">
             <div className="h-full">
                 <textarea
-                    className="resize-none rounded-lg border-hidden p-4 min-w-[180px] min-h-[180px] h-full w-full text-lg text-zinc-200 bg-transparent "
+                    className="resize-none rounded-lg  p-4 min-w-[180px] min-h-[180px] h-full w-full text-lg text-zinc-200 bg-transparent focus:outline-none focus: focus:border-transparent "
                     title='teste'
                 />
             </div>
